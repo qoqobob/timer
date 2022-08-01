@@ -27,37 +27,41 @@ body {
 .buttons {
     text-align: center;
 }
-.bi {
+#start-button, #delete-button, #pause-button {
     font-size: 2em;
     border-radius: 10px;
-    box-shadow: 0 0 8px;
+    border: none;
+    box-shadow: 0 0 3px black;
     padding: 5px;
     margin: 0px 10px;
     transition: all .2s;
 }
-.bi-play-fill {
+#start-button {
     color: green;
     background-color: white;
 }
-.bi-play-fill:hover {
+#start-button:hover {
     color: white;
     background-color: green;
     cursor: pointer;
 }
-.bi-pause-fill {
+#start-button:active, #delete-button:active,#pause-button:active {
+    transform: scale(0.8);
+}
+#pause-button {
     color: orange;
     background-color: white;
 }
-.bi-pause-fill:hover {
+#pause-button:hover {
     color: white;
     background-color: orange;
     cursor: pointer;
 }
-.bi-trash3-fill {
+#delete-button {
     color: crimson;
     background-color: white;
 }
-.bi-trash3-fill:hover {
+#delete-button:hover {
     color: white;
     background-color: crimson;
     cursor: pointer;
