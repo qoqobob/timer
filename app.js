@@ -13,13 +13,13 @@ document.addEventListener('DOMContentLoaded', () => {
         if (runTimer !== null) {
             clearInterval(runTimer);
             runTimer = null;
-            startBtn.innerHTML = '<i class="bi bi-play-fill"></i>';
             startBtn.removeAttribute('id');
+            startBtn.innerHTML = '<i class="bi bi-play-fill"></i>';
             startBtn.setAttribute('id', 'start-button');
         } else {
             runTimer = setInterval(updateTimer, 1000);
-            startBtn.innerHTML = '<i class="bi bi-pause-fill">';
             startBtn.removeAttribute('id');
+            startBtn.innerHTML = '<i class="bi bi-pause-fill">';
             startBtn.setAttribute('id', 'pause-button')
         }
     });
@@ -31,8 +31,9 @@ document.addEventListener('DOMContentLoaded', () => {
         hours = 0;
         timer.innerText = '00:00:00';
         startBtn.removeAttribute('id');
-        startBtn.setAttribute('id', 'start-button');
         startBtn.innerHTML = '<i class="bi bi-play-fill"></i>';
+        startBtn.setAttribute('id', 'start-button');
+        
     });
 
     function updateTimer() {
