@@ -45,7 +45,7 @@ body {
     background-color: green;
     cursor: pointer;
 }
-#start-button:active, #delete-button:active,#pause-button:active {
+#start-button:active, #delete-button:active, #pause-button:active {
     transform: scale(0.8);
 }
 #pause-button {
