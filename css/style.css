@@ -38,7 +38,7 @@ body {
 }
 .bi {
     padding: 10px;
-    display: block;
+    display: inline-block;
 }
 #start-button {
     color: green;
