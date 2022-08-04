@@ -36,6 +36,10 @@ body {
     margin: 0px 10px;
     transition: all .2s;
 }
+.bi {
+    padding: 10px;
+    display: block;
+}
 #start-button {
     color: green;
     background-color: white;
