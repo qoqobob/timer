@@ -32,7 +32,7 @@ body {
     border-radius: 10px;
     border: none;
     box-shadow: 0 0 3px black;
-    padding: 5px;
+/*     padding: 5px; */
     margin: 0px 10px;
     transition: all .2s;
 }
